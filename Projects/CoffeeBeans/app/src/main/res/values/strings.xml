@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CoffeeBeans</string>
+    <string name="coffeebeans">CoffeeBeans</string>
+    <string name="description">A coffee shop serving happiness to all!</string>
+    <string name="hours">Hours: 09:00 AM - 09:00 PM</string>
+    <string name="address">Address: 18, Open Night Street, Vadodara.</string>
+    <string name="credits">Image Credits: freepik.com</string>
+</resources>
