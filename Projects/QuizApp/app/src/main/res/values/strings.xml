@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="email">Email</string>
+    <string name="technology">Technology</string>
+    <string name="question_one">Who is the CEO of Google Inc?</string>
+    <string name="sundar_pichai">Sundar Pichai</string>
+    <string name="satya_nadella">Satya Nadella</string>
+    <string name="question_two">Who is the CEO of Tesla Inc?</string>
+    <string name="donald_trump">Donald Trump</string>
+    <string name="elon_musk">Elon Musk</string>
+    <string name="sports">Sports</string>
+    <string name="question_three">Where 2020 Olympics is going to be held?</string>
+    <string name="moscow">Moscow</string>
+    <string name="tokyo">Tokyo</string>
+    <string name="question_four">Who is most grand titles holder in Men\'s category Tennis?</string>
+    <string name="roger_federer">Roger Federer</string>
+    <string name="rafael_nadal">Rafael Nadal</string>
+    <string name="politics">Politics</string>
+    <string name="question_five">Who is President of The United States?</string>
+    <string name="barack_obama">Barack Obama</string>
+    <string name="question_six">Who is Prime Minister of India?</string>
+    <string name="narendra_modi">Narendra Modi</string>
+    <string name="manmohan_singh">Manmohan Singh</string>
+    <string name="bonus">Bonus</string>
+    <string name="question_eight">Who is founder of Alibaba Group?</string>
+    <string name="question_seven">Which of these are sportscar brands?</string>
+    <string name="Lamborghini">Lamborghini</string>
+    <string name="Ferrari">Ferrari</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+</resources>

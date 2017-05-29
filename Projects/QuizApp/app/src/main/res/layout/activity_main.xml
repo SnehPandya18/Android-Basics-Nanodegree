@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.snehpandya.quizapp.MainActivity">
+
+    <LinearLayout
+        style="@style/LinearLayoutStyle"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/technology"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_one" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/q1a1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/sundar_pichai" />
+
+            <RadioButton
+                android:id="@+id/q1a2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/satya_nadella" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_two" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/q2a1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/donald_trump" />
+
+            <RadioButton
+                android:id="@+id/q2a2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/elon_musk" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/sports" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_three" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/q3a1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/moscow" />
+
+            <RadioButton
+                android:id="@+id/q3a2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/tokyo" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_four" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/q4a1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/roger_federer" />
+
+            <RadioButton
+                android:id="@+id/q4a2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/rafael_nadal" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/politics" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_five" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/q5a1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/donald_trump" />
+
+            <RadioButton
+                android:id="@+id/q5a2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/barack_obama" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_six" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/q6a1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/narendra_modi" />
+
+            <RadioButton
+                android:id="@+id/q6a2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/manmohan_singh" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/bonus" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_seven" />
+
+        <LinearLayout
+            style="@style/LinearLayoutStyle"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/lamborghini_checkbox"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Lamborghini" />
+
+            <CheckBox
+                android:id="@+id/ferrari_checkbox"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Ferrari" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_eight" />
+
+        <EditText
+            android:id="@+id/answer_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:inputType="textCapWords" />
+
+        <LinearLayout
+            style="@style/LinearLayoutStyle"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/CustomButtonStyle"
+                android:onClick="submit"
+                android:text="@string/submit" />
+
+            <Button
+                style="@style/CustomButtonStyle"
+                android:onClick="reset"
+                android:text="@string/reset" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/summary_textview"
+            style="@style/QuestionTextStyle"
+            android:text="" />
+    </LinearLayout>
+
+</ScrollView>
