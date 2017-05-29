@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/labelStyle"
+        android:text="@string/all_songs_detail" />
+
+    <TextView
+        android:id="@+id/song1"
+        style="@style/textfieldStyle"
+        android:text="@string/kabira" />
+
+    <TextView
+        android:id="@+id/song2"
+        style="@style/textfieldStyle"
+        android:text="@string/tere_sang" />
+
+    <TextView
+        android:id="@+id/song3"
+        style="@style/textfieldStyle"
+        android:text="@string/escape" />
+
+    <TextView
+        android:id="@+id/song4"
+        style="@style/textfieldStyle"
+        android:text="@string/the_final_countdown" />
+
+    <TextView
+        android:id="@+id/song5"
+        style="@style/textfieldStyle"
+        android:text="@string/tera_hone_laga_hoon" />
+
+    <Button
+        android:id="@+id/playing"
+        style="@style/buttonStyle" />
+
+</LinearLayout>

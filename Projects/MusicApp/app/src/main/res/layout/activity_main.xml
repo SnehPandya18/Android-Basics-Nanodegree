@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.snehpandya.musicapp.MainActivity">
+
+    <TextView
+        style="@style/labelStyle"
+        android:text="@string/main_activity" />
+
+    <TextView
+        android:id="@+id/songs"
+        style="@style/categoryStyle"
+        android:background="@color/category_songs"
+        android:text="@string/songs" />
+
+    <TextView
+        android:id="@+id/artists"
+        style="@style/categoryStyle"
+        android:background="@color/category_artists"
+        android:text="@string/artists" />
+
+    <TextView
+        android:id="@+id/albums"
+        style="@style/categoryStyle"
+        android:background="@color/category_albums"
+        android:text="@string/albums" />
+
+    <TextView
+        android:id="@+id/favorites"
+        style="@style/categoryStyle"
+        android:background="@color/category_favorites"
+        android:text="@string/favorites" />
+
+    <Button
+        android:id="@+id/playing"
+        style="@style/buttonStyle" />
+
+</LinearLayout>

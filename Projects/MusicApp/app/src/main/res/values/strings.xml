@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="songs">Songs</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="favorites">Favorites</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="song_details">Song details</string>
+    <string name="song_name">Song Name</string>
+    <string name="kabira">Kabira</string>
+    <string name="tere_sang">Tere Sang</string>
+    <string name="escape">Escape</string>
+    <string name="the_final_countdown">The Final Countdown</string>
+    <string name="tera_hone_laga_hoon">Tera Hone Laga Hoon</string>
+    <string name="a_r_rahman">A. R. Rahman</string>
+    <string name="alisha_chinoy">Alisha Chinoy</string>
+    <string name="shankar_mahadevan">Shankar Mahadevan</string>
+    <string name="yeh_jawaani_hai_deewani">Yeh Jawaani Hai Deewani</string>
+    <string name="rustom">Rustom</string>
+    <string name="insomniac">Insomniac</string>
+    <string name="ajab_prem_ki_ghazab_kahani">Ajab Prem Ki Ghazab Kahani</string>
+    <string name="main_activity">Main activity after starting app</string>
+    <string name="all_albums_detail">All Albums Detail</string>
+    <string name="all_artists_detail">All Artists Detail</string>
+    <string name="all_favorites_detail">All Favorites Detail</string>
+    <string name="all_now_playing_detail">All Now Playing Detail</string>
+    <string name="all_songs_detail">All Songs Detail</string>
+</resources>

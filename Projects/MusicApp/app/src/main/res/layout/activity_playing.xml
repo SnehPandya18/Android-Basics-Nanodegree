@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/detailstext"
+        style="@style/labelStyle"
+        android:text="@string/all_now_playing_detail" />
+
+    <TextView
+        android:id="@+id/details"
+        style="@style/playStyle"
+        android:layout_below="@id/detailstext"
+        android:text="@string/song_name" />
+
+    <ImageView
+        android:id="@+id/musicimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/details"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/image" />
+
+    <TextView
+        style="@style/playStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/musicimage"
+        android:text="@string/song_details" />
+
+</RelativeLayout>
