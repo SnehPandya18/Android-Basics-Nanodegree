@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="category_attractions">#FD8E09</color>
+    <color name="category_cities">#379237</color>
+    <color name="category_hillstations">#8800A0</color>
+    <color name="category_hotels">#16AFCA</color>
+</resources>

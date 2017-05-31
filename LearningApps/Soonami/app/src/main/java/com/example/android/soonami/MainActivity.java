@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             // Extract relevant fields from the JSON response and create an {@link Event} object
-            Event earthquake = extractFeatureFromJson(jsonResponse);
+                Event earthquake = extractFeatureFromJson(jsonResponse);
 
             // Return the {@link Event} object as the result fo the {@link TsunamiAsyncTask}
             return earthquake;

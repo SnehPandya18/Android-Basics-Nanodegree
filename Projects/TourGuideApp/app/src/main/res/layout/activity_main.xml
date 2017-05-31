@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.snehpandya.tourguideapp.MainActivity">
+
+    <TextView
+        android:id="@+id/attractions"
+        style="@style/CategoryStyle"
+        android:background="@color/category_attractions"
+        android:text="@string/attractions" />
+
+    <TextView
+        android:id="@+id/cities"
+        style="@style/CategoryStyle"
+        android:background="@color/category_cities"
+        android:text="@string/cities" />
+
+    <TextView
+        android:id="@+id/hillstations"
+        style="@style/CategoryStyle"
+        android:background="@color/category_hillstations"
+        android:text="@string/hillstations" />
+
+    <TextView
+        android:id="@+id/hotels"
+        style="@style/CategoryStyle"
+        android:background="@color/category_hotels"
+        android:text="@string/hotels" />
+
+</LinearLayout>
