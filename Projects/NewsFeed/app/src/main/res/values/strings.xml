@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">NewsFeed</string>
+    <string name="share">Share</string>
+    <string name="national">National</string>
+    <string name="technology">Technology</string>
+    <string name="food">Food</string>
+    <string name="travel">Travel</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="politics">Politics</string>
+    <string name="society">Society</string>
+    <string name="top_stories">Top Stories</string>
+    <string name="more">More</string>
+    <string name="communication">Communication</string>
+    <string name="about">About</string>
+    <string name="v_1_0">V 1.0</string>
+    <string name="section">Section</string>
+    <string name="item_type">item_Type</string>
+    <string name="title">Title</string>
+    <string name="abs">Abstract</string>
+    <string name="writer">Writer</string>
+    <string name="time">Time</string>
+</resources>

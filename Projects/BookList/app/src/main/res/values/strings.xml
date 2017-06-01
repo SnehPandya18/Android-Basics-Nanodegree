@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BookList</string>
+    <string name="search">Search</string>
+    <string name="no_record">No record found!</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="search_again">Do you want to search again?</string>
+    <string name="search_term">Please enter search term below:</string>
+    <string name="check_connection">Please check your network connection!</string>
+</resources>
