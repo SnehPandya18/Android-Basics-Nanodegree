@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="delete_all">Delete All</string>
+    <string name="inventory_not_found">Inventory Not Found</string>
+    <string name="product_name">Product Name</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="add_item">Add Item</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="update_item">Update Item</string>
+    <string name="cancel">Cancel</string>
+    <string name="all_item_deleted">All items deleted</string>
+    <string name="no_item_in_list">No items on list, please add item</string>
+    <string name="update_item_successful">Item updated</string>
+    <string name="update_item_error">Error updating item</string>
+    <string name="save_item_successful">Item saved</string>
+    <string name="save_item_error">Error saving item</string>
+    <string name="delete_item_successful">Item deleted</string>
+    <string name="error_deleting_item">Error deleting item</string>
+    <string name="choose_image">Please choose image</string>
+    <string name="out_of_stock">Out of stock!</string>
+    <string name="dollar">$</string>
+    <string name="order_item">Order Item</string>
+    <string name="remove">-</string>
+    <string name="add">+</string>
+    <string name="pixel">Google Pixel</string>
+    <string name="max">Minimum 1 Item Quantity required to place order</string>
+    <string name="image_fail">Image Loading Fail!</string>
+    <string name="track">Track</string>
+    <string name="sale">Sale</string>
+</resources>
